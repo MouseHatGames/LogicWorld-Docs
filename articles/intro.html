@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting started </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting started ">
+    <meta name="generator" content="docfx 2.48.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../all-api/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo_white.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting started</h1>
+
+<p>To create your first mod, go to your installation folder (the one containing <code>Logic_World.exe</code>), then create
+a folder under the <code>GameData</code> folder called <code>MyMod</code>.</p>
+<p><img src="/images/gettingstarted_1.png" alt="image"></p>
+<p>Navigate to the folder you just made and create a new file called <code>manifest.succ</code>, then open it with a text editor.
+This file will contain data about your mod like its name and its version:</p>
+<!-- ![image](/images/gettingstarted_2.png) -->
+<pre><code class="lang-yaml">ID: me.johndoe.mymod
+Name: My cool mod
+Author: John Doe
+Version: 1.0.0
+</code></pre>
+<p>Next we are going to create a simple new component. To do this, we first need to define the component using a SUCC file.
+Create a <code>components</code> folder, and under it create a new file called <code>components.succ</code>.</p>
+<p><img src="/images/gettingstarted_3.png" alt="image"></p>
+<p><img src="/images/gettingstarted_4.png" alt="image"></p>
+<p>Open this file with a text editor (I recommend <a href="http://www.sublimetext.com/">Sublime Text</a> with the <a href="https://packagecontrol.io/packages/SUCC%20Syntax%20Highlighting">Sublime SUCC</a> plugin),
+and we're ready to start defining the component.</p>
+<p>First, we need to give the component and ID. This ID is a simple and short text identifier, it should
+be as short as possible while still making clear what the component is. You don't need to worry about making it unique, as long as your mod doesn't
+contain two components with the same ID.</p>
+<!-- ![image](/images/gettingstarted_5.png) -->
+<pre><code class="lang-yaml">AndGate:
+</code></pre>
+<p>We will then add this component to the &quot;Logic&quot; column in the components menu:</p>
+<!-- ![image](/images/gettingstarted_6.png) -->
+<pre><code class="lang-yaml">    column: Logic
+</code></pre>
+<p>Finally we will define the component's prefab, which is the component's &quot;shape&quot; including input and output pegs:</p>
+<pre><code class="lang-yaml">    prefab:
+        blocks:
+            -
+                color: (0, 174, 209) # The block's RGB color
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5) # The position of the peg, relative to the center of the component
+                rotation: (-90, 0, 0) # The rotation of this input peg
+                length: 0.6 # The length of the peg, 0.6 is the standard length
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+</code></pre>
+<p>Save the file, and at this point you should be ready to fire up the game! If all goes well, you should be able to load a save and place down your
+component.</p>
+<hr>
+<p>You will quickly notice that it's not exciting at all though, since the inputs don't do anything. This is because so far we've only defined what the
+component <em>looks like</em>, but not what it does. There are two ways of doing this (C# scripts and LogicScript scripts), but for now we're going for the
+latter.</p>
+<p>Go back to your mod's folder and create a new folder called <code>scripts</code>. Open it and create a file called <code>andgate.lsx</code>, then open it with a text editor.</p>
+<p><img src="/images/gettingstarted_7.png" alt="image"></p>
+<p><img src="/images/gettingstarted_8.png" alt="image"></p>
+<p>This file will contain LogicScript code indicating the behaviour of the component. LogicScript syntax and usage is unfortunately out of the scope of this tutorial
+(you can check the <a href="scripting/ls-scripting.html">LSX primer</a> for more info), so for now you can copy and paste this simple bit of code:</p>
+<pre><code>any
+	out[0] = in[0] &amp; in[1]
+end
+</code></pre>
+<p>Now go back to the <code>components.succ</code> file and add this line at the end:</p>
+<pre><code class="lang-yaml">    logicScript: andgate
+</code></pre>
+<p>This will inform the game to use the LSX file that we just wrote when updating the component, making it react to its inputs.</p>
+<p>Now, restart the game and load back into your world, then hook up a couple switches to both of your component's inputs and you should see
+its output update accordingly!</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

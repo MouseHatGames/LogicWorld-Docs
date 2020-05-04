@@ -1,0 +1,730 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Component
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Component
+   ">
+    <meta name="generator" content="docfx 2.48.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../all-api/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo_white.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="LogicAPI.Data.Component">
+  
+  
+  <h1 id="LogicAPI_Data_Component" data-uid="LogicAPI.Data.Component" class="text-break">Class Component
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a physical LW component.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Component</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="LogicAPI.Data.html">LogicAPI.Data</a></h6>
+  <h6><strong>Assembly</strong>: LogicAPI.dll</h6>
+  <h5 id="LogicAPI_Data_Component_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Component : IByteObject</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="LogicAPI_Data_Component__ctor_" data-uid="LogicAPI.Data.Component.#ctor*"></a>
+  <h4 id="LogicAPI_Data_Component__ctor_LogicAPI_Data_ComponentAddress_LogicAPI_Data_ComponentType_" data-uid="LogicAPI.Data.Component.#ctor(LogicAPI.Data.ComponentAddress,LogicAPI.Data.ComponentType)">Component(ComponentAddress, ComponentType)</h4>
+  <div class="markdown level1 summary"><p>Instantiates a new <a class="xref" href="LogicAPI.Data.Component.html">Component</a> of a specified type with a parent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Component(ComponentAddress parent, ComponentType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>The new component's parent component address</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.ComponentType.html">ComponentType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The new component's type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component__ctor_" data-uid="LogicAPI.Data.Component.#ctor*"></a>
+  <h4 id="LogicAPI_Data_Component__ctor_LogicAPI_Data_ComponentType_" data-uid="LogicAPI.Data.Component.#ctor(LogicAPI.Data.ComponentType)">Component(ComponentType)</h4>
+  <div class="markdown level1 summary"><p>Instantiates a new <a class="xref" href="LogicAPI.Data.Component.html">Component</a> of a specified type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Component(ComponentType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.ComponentType.html">ComponentType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The new component's type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="LogicAPI_Data_Component_Children_" data-uid="LogicAPI.Data.Component.Children*"></a>
+  <h4 id="LogicAPI_Data_Component_Children" data-uid="LogicAPI.Data.Component.Children">Children</h4>
+  <div class="markdown level1 summary"><p>This component's children addresses.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;ComponentAddress&gt; Children { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<a class="xref" href="LogicAPI.Data.ComponentAddress.html">ComponentAddress</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_CustomData_" data-uid="LogicAPI.Data.Component.CustomData*"></a>
+  <h4 id="LogicAPI_Data_Component_CustomData" data-uid="LogicAPI.Data.Component.CustomData">CustomData</h4>
+  <div class="markdown level1 summary"><p>This component's custom data, to be synced between the client and the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] CustomData { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_forward_" data-uid="LogicAPI.Data.Component.forward*"></a>
+  <h4 id="LogicAPI_Data_Component_forward" data-uid="LogicAPI.Data.Component.forward">forward</h4>
+  <div class="markdown level1 summary"><p>Z positive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 forward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_InputInfos_" data-uid="LogicAPI.Data.Component.InputInfos*"></a>
+  <h4 id="LogicAPI_Data_Component_InputInfos" data-uid="LogicAPI.Data.Component.InputInfos">InputInfos</h4>
+  <div class="markdown level1 summary"><p>This component's inputs data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputInfo[] InputInfos { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.InputInfo.html">InputInfo</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_localForward_" data-uid="LogicAPI.Data.Component.localForward*"></a>
+  <h4 id="LogicAPI_Data_Component_localForward" data-uid="LogicAPI.Data.Component.localForward">localForward</h4>
+  <div class="markdown level1 summary"><p>Z positive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 localForward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_LocalPosition_" data-uid="LogicAPI.Data.Component.LocalPosition*"></a>
+  <h4 id="LogicAPI_Data_Component_LocalPosition" data-uid="LogicAPI.Data.Component.LocalPosition">LocalPosition</h4>
+  <div class="markdown level1 summary"><p>This component's position, relative to its parent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 LocalPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_localRight_" data-uid="LogicAPI.Data.Component.localRight*"></a>
+  <h4 id="LogicAPI_Data_Component_localRight" data-uid="LogicAPI.Data.Component.localRight">localRight</h4>
+  <div class="markdown level1 summary"><p>X positive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 localRight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_LocalRotation_" data-uid="LogicAPI.Data.Component.LocalRotation*"></a>
+  <h4 id="LogicAPI_Data_Component_LocalRotation" data-uid="LogicAPI.Data.Component.LocalRotation">LocalRotation</h4>
+  <div class="markdown level1 summary"><p>This component's rotation, relative to its parent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion LocalRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_localUp_" data-uid="LogicAPI.Data.Component.localUp*"></a>
+  <h4 id="LogicAPI_Data_Component_localUp" data-uid="LogicAPI.Data.Component.localUp">localUp</h4>
+  <div class="markdown level1 summary"><p>Y positive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 localUp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_OutputInfos_" data-uid="LogicAPI.Data.Component.OutputInfos*"></a>
+  <h4 id="LogicAPI_Data_Component_OutputInfos" data-uid="LogicAPI.Data.Component.OutputInfos">OutputInfos</h4>
+  <div class="markdown level1 summary"><p>This component's outputs data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OutputInfo[] OutputInfos { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.OutputInfo.html">OutputInfo</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_Parent_" data-uid="LogicAPI.Data.Component.Parent*"></a>
+  <h4 id="LogicAPI_Data_Component_Parent" data-uid="LogicAPI.Data.Component.Parent">Parent</h4>
+  <div class="markdown level1 summary"><p>This component's parent component address, or <span class="xref">null</span> if none.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComponentAddress Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_right_" data-uid="LogicAPI.Data.Component.right*"></a>
+  <h4 id="LogicAPI_Data_Component_right" data-uid="LogicAPI.Data.Component.right">right</h4>
+  <div class="markdown level1 summary"><p>X positive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 right { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_Size_" data-uid="LogicAPI.Data.Component.Size*"></a>
+  <h4 id="LogicAPI_Data_Component_Size" data-uid="LogicAPI.Data.Component.Size">Size</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Size { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_Type_" data-uid="LogicAPI.Data.Component.Type*"></a>
+  <h4 id="LogicAPI_Data_Component_Type" data-uid="LogicAPI.Data.Component.Type">Type</h4>
+  <div class="markdown level1 summary"><p>The type this component is, i.e. board, inverter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComponentType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="LogicAPI.Data.ComponentType.html">ComponentType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_up_" data-uid="LogicAPI.Data.Component.up*"></a>
+  <h4 id="LogicAPI_Data_Component_up" data-uid="LogicAPI.Data.Component.up">up</h4>
+  <div class="markdown level1 summary"><p>Y positive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 up { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_WorldPosition_" data-uid="LogicAPI.Data.Component.WorldPosition*"></a>
+  <h4 id="LogicAPI_Data_Component_WorldPosition" data-uid="LogicAPI.Data.Component.WorldPosition">WorldPosition</h4>
+  <div class="markdown level1 summary"><p>This component's computed global position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 WorldPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_WorldRotation_" data-uid="LogicAPI.Data.Component.WorldRotation*"></a>
+  <h4 id="LogicAPI_Data_Component_WorldRotation" data-uid="LogicAPI.Data.Component.WorldRotation">WorldRotation</h4>
+  <div class="markdown level1 summary"><p>This component's computed global rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion WorldRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="LogicAPI_Data_Component_ForceCascadingPositionRotationUpdate_" data-uid="LogicAPI.Data.Component.ForceCascadingPositionRotationUpdate*"></a>
+  <h4 id="LogicAPI_Data_Component_ForceCascadingPositionRotationUpdate" data-uid="LogicAPI.Data.Component.ForceCascadingPositionRotationUpdate">ForceCascadingPositionRotationUpdate()</h4>
+  <div class="markdown level1 summary"><p>Forces a position and rotation update, making this component, its parent and all its descendants update their
+global position and rotation values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceCascadingPositionRotationUpdate()</code></pre>
+  </div>
+  <a id="LogicAPI_Data_Component_ToLocalSpace_" data-uid="LogicAPI.Data.Component.ToLocalSpace*"></a>
+  <h4 id="LogicAPI_Data_Component_ToLocalSpace_UnityEngine_Vector3_" data-uid="LogicAPI.Data.Component.ToLocalSpace(UnityEngine.Vector3)">ToLocalSpace(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Converts a coordinate from world space to this component's local space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 ToLocalSpace(Vector3 worldSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">worldSpace</span></td>
+        <td><p>The coordinate in world space to convert</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Data_Component_UpdatePositionRotation_" data-uid="LogicAPI.Data.Component.UpdatePositionRotation*"></a>
+  <h4 id="LogicAPI_Data_Component_UpdatePositionRotation_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="LogicAPI.Data.Component.UpdatePositionRotation(UnityEngine.Vector3,UnityEngine.Quaternion)">UpdatePositionRotation(Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Sets this component's position and rotation, but only cascades one update.
+<br>
+This avoids unecessary cascading updates when setting all the values at once.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePositionRotation(Vector3 newLocalPosition, Quaternion newLocalRotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">newLocalPosition</span></td>
+        <td><p>The component's new position</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">newLocalRotation</span></td>
+        <td><p>The component's new rotation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="LogicAPI_Data_Component_OnPositionRotationChanged" data-uid="LogicAPI.Data.Component.OnPositionRotationChanged">OnPositionRotationChanged</h4>
+  <div class="markdown level1 summary"><p>Fired when the component's position and/or rotation have been changed (for example through <a class="xref" href="LogicAPI.Data.Component.html#LogicAPI_Data_Component_ForceCascadingPositionRotationUpdate">ForceCascadingPositionRotationUpdate()</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnPositionRotationChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

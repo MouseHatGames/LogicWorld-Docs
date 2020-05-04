@@ -1,0 +1,507 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IWorldManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IWorldManager
+   ">
+    <meta name="generator" content="docfx 2.48.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../all-api/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo_white.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="LogicAPI.Server.Services.IWorldManager">
+  
+  
+  <h1 id="LogicAPI_Server_Services_IWorldManager" data-uid="LogicAPI.Server.Services.IWorldManager" class="text-break">Interface IWorldManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="LogicAPI.Server.Services.html">LogicAPI.Server.Services</a></h6>
+  <h6><strong>Assembly</strong>: LogicAPI.Server.dll</h6>
+  <h5 id="LogicAPI_Server_Services_IWorldManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IWorldManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="LogicAPI_Server_Services_IWorldManager_ChangeComponentData_" data-uid="LogicAPI.Server.Services.IWorldManager.ChangeComponentData*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_ChangeComponentData_LogicAPI_Data_ComponentAddress_System_Byte___" data-uid="LogicAPI.Server.Services.IWorldManager.ChangeComponentData(LogicAPI.Data.ComponentAddress,System.Byte[])">ChangeComponentData(ComponentAddress, Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ChangeComponentData(ComponentAddress cAddress, byte[] newData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">cAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">newData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_ChangeInputExclusivity_" data-uid="LogicAPI.Server.Services.IWorldManager.ChangeInputExclusivity*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_ChangeInputExclusivity_LogicAPI_Data_InputAddress_System_Boolean_" data-uid="LogicAPI.Server.Services.IWorldManager.ChangeInputExclusivity(LogicAPI.Data.InputAddress,System.Boolean)">ChangeInputExclusivity(InputAddress, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ChangeInputExclusivity(InputAddress iAddress, bool isExclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.InputAddress.html">InputAddress</a></td>
+        <td><span class="parametername">iAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isExclusive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_CloneComponent_" data-uid="LogicAPI.Server.Services.IWorldManager.CloneComponent*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_CloneComponent_LogicAPI_Data_ComponentAddress_LogicAPI_Data_ComponentAddress_UnityEngine_Vector3_UnityEngine_Quaternion_System_Boolean_" data-uid="LogicAPI.Server.Services.IWorldManager.CloneComponent(LogicAPI.Data.ComponentAddress,LogicAPI.Data.ComponentAddress,UnityEngine.Vector3,UnityEngine.Quaternion,System.Boolean)">CloneComponent(ComponentAddress, ComponentAddress, Vector3, Quaternion, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CloneComponent(ComponentAddress sourceAddress, ComponentAddress parentAddress, Vector3 localPosition, Quaternion localRotation, bool isClonedByUser = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">sourceAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">parentAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">localPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">localRotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isClonedByUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_CreateComponent_" data-uid="LogicAPI.Server.Services.IWorldManager.CreateComponent*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_CreateComponent_LogicAPI_Data_Component_System_Boolean_" data-uid="LogicAPI.Server.Services.IWorldManager.CreateComponent(LogicAPI.Data.Component,System.Boolean)">CreateComponent(Component, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ComponentAddress CreateComponent(Component component, bool isCreatedByUser = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.Component.html">Component</a></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isCreatedByUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_CreateWire_" data-uid="LogicAPI.Server.Services.IWorldManager.CreateWire*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_CreateWire_LogicAPI_Data_PegAddress_LogicAPI_Data_PegAddress_System_Single_System_Boolean_" data-uid="LogicAPI.Server.Services.IWorldManager.CreateWire(LogicAPI.Data.PegAddress,LogicAPI.Data.PegAddress,System.Single,System.Boolean)">CreateWire(PegAddress, PegAddress, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">WireAddress CreateWire(PegAddress point1, PegAddress point2, float rotation, bool byUser = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.PegAddress.html">PegAddress</a></td>
+        <td><span class="parametername">point1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.PegAddress.html">PegAddress</a></td>
+        <td><span class="parametername">point2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">byUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.WireAddress.html">WireAddress</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_DeleteComponent_" data-uid="LogicAPI.Server.Services.IWorldManager.DeleteComponent*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_DeleteComponent_LogicAPI_Data_ComponentAddress_System_Boolean_" data-uid="LogicAPI.Server.Services.IWorldManager.DeleteComponent(LogicAPI.Data.ComponentAddress,System.Boolean)">DeleteComponent(ComponentAddress, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteComponent(ComponentAddress cAddress, bool deletedByUser = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">cAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deletedByUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_DeleteWire_" data-uid="LogicAPI.Server.Services.IWorldManager.DeleteWire*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_DeleteWire_LogicAPI_Data_WireAddress_" data-uid="LogicAPI.Server.Services.IWorldManager.DeleteWire(LogicAPI.Data.WireAddress)">DeleteWire(WireAddress)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteWire(WireAddress wAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.WireAddress.html">WireAddress</a></td>
+        <td><span class="parametername">wAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_RotateWire_" data-uid="LogicAPI.Server.Services.IWorldManager.RotateWire*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_RotateWire_LogicAPI_Data_WireAddress_System_Single_" data-uid="LogicAPI.Server.Services.IWorldManager.RotateWire(LogicAPI.Data.WireAddress,System.Single)">RotateWire(WireAddress, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RotateWire(WireAddress wAddress, float newRotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.WireAddress.html">WireAddress</a></td>
+        <td><span class="parametername">wAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">newRotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_UpdateComponentPositionRotationParent_" data-uid="LogicAPI.Server.Services.IWorldManager.UpdateComponentPositionRotationParent*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_UpdateComponentPositionRotationParent_LogicAPI_Data_ComponentAddress_UnityEngine_Vector3_UnityEngine_Quaternion_LogicAPI_Data_ComponentAddress_" data-uid="LogicAPI.Server.Services.IWorldManager.UpdateComponentPositionRotationParent(LogicAPI.Data.ComponentAddress,UnityEngine.Vector3,UnityEngine.Quaternion,LogicAPI.Data.ComponentAddress)">UpdateComponentPositionRotationParent(ComponentAddress, Vector3, Quaternion, ComponentAddress)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateComponentPositionRotationParent(ComponentAddress targetAddress, Vector3 newLocalPosition, Quaternion newLocalRotation, ComponentAddress newParent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">targetAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">newLocalPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">newLocalRotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.ComponentAddress.html">ComponentAddress</a></td>
+        <td><span class="parametername">newParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_UpdateInputInfoStateID_" data-uid="LogicAPI.Server.Services.IWorldManager.UpdateInputInfoStateID*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_UpdateInputInfoStateID_LogicAPI_Data_InputAddress_System_Int32_" data-uid="LogicAPI.Server.Services.IWorldManager.UpdateInputInfoStateID(LogicAPI.Data.InputAddress,System.Int32)">UpdateInputInfoStateID(InputAddress, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateInputInfoStateID(InputAddress iAddress, int newStateID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.InputAddress.html">InputAddress</a></td>
+        <td><span class="parametername">iAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">newStateID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="LogicAPI_Server_Services_IWorldManager_UpdateWireStateID_" data-uid="LogicAPI.Server.Services.IWorldManager.UpdateWireStateID*"></a>
+  <h4 id="LogicAPI_Server_Services_IWorldManager_UpdateWireStateID_LogicAPI_Data_WireAddress_System_Int32_" data-uid="LogicAPI.Server.Services.IWorldManager.UpdateWireStateID(LogicAPI.Data.WireAddress,System.Int32)">UpdateWireStateID(WireAddress, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateWireStateID(WireAddress wAddress, int newStateID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../api/LogicAPI.Data.WireAddress.html">WireAddress</a></td>
+        <td><span class="parametername">wAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">newStateID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

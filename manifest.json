@@ -1,0 +1,1203 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/piper/Documents/Visual Studio 2017/Projects/Logic-World/api/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Toc",
+      "source_relative_path": "all-api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "all-api/toc.html",
+          "hash": "GCQxkKLz7ry3pC+Mh50fIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.ClientMod-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.ClientMod-1.html",
+          "hash": "PVwVt2FKqLINhvVblj/qOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.ClientMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.ClientMod.html",
+          "hash": "6Z5bYEcNIsmVjgAXLrV5Dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.Hooks.Data.DeleteComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.Hooks.Data.DeleteComponentEventArgs.html",
+          "hash": "0ARS5rP9mPoE2BMoSJEdrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.Hooks.Data.PlaceComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.Hooks.Data.PlaceComponentEventArgs.html",
+          "hash": "1aGKLA6m6K8aMGgmBnrjHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.Hooks.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.Hooks.Data.html",
+          "hash": "MguuYU/b4wMjG0b5NlcdzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.Hooks.WorldHookHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.Hooks.WorldHookHandler.html",
+          "hash": "hLsKNkj75CZm5iNM1jThnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.Hooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.Hooks.html",
+          "hash": "s6EN4vx+gfWg/1BgcPzWUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.IAssets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.IAssets.html",
+          "hash": "Fwg+Hi+cRS1RZyEbqQ6pEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-cl/LogicAPI.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/LogicAPI.Client.html",
+          "hash": "sK/ObYS9uzg4hM2dGOojGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api-cl/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api-cl/index.html",
+          "hash": "Yo9aeVDYwUg0H1XQs8qCMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Game.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Game.Builder.html",
+          "hash": "/IE4h+/Y4hDDMcyMnE5xGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Game.CircuitBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Game.CircuitBoard.html",
+          "hash": "LC+Mx88pg713METWPXxnkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Game.html",
+          "hash": "tOMBMyF8aqavyn4h0eR/AQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.ClonedComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.ClonedComponentEventArgs.html",
+          "hash": "q3qiyX+R7/cOSkrjh1Y0tg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.CloningComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.CloningComponentEventArgs.html",
+          "hash": "0F5ClJ5k/i2xyXNtHrwTnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.DeletedComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.DeletedComponentEventArgs.html",
+          "hash": "7evRR5RicN9CxKEpkXqGyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.DeletingComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.DeletingComponentEventArgs.html",
+          "hash": "1W5x2L8BZmzAvruwb/wvgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacedComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacedComponentEventArgs.html",
+          "hash": "5L8R8EP5MycOPfHYd58HMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacedWireEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacedWireEventArgs.html",
+          "hash": "oIDkpP+6nxL17MxetQWrJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacingComponentEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacingComponentEventArgs.html",
+          "hash": "AtBhQSygTzy49hcKQke9sA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacingWireEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.PlacingWireEventArgs.html",
+          "hash": "LifvGKBW7rx+oUreR22V1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.EventArgs.html",
+          "hash": "bcDl+0C0/Vow+S0Ao9aWpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.LifecycleHookHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.LifecycleHookHandler.html",
+          "hash": "1IAX/LWpvisRbKyXMgubjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.WorldHookHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.WorldHookHandler.html",
+          "hash": "RwvFdAoVYJ8OqE6OKsRrxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Hooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Hooks.html",
+          "hash": "w/mj47I/+A17mn2o2tWWMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.ServerMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.ServerMod.html",
+          "hash": "GmgfGXJH9Y8m751YQLMjPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Services.IWorldManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Services.IWorldManager.html",
+          "hash": "sXB5NySxiTm1/JXNO8RBPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.Services.html",
+          "hash": "a1BHrODibzNHgNqQpKB0lw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-sv/LogicAPI.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/LogicAPI.Server.html",
+          "hash": "HBNRLRzygY5XtH27j4znBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api-sv/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api-sv/index.html",
+          "hash": "no6lSO1ckgexJn74lF0O/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.AddressExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.AddressExtensions.html",
+          "hash": "ExbdXarpIzHlUVAd6V4gyg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.ConversionUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.ConversionUtilities.html",
+          "hash": "uAGS+DvuraAatLstrI+s4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.Component.html",
+          "hash": "8lzhwx6PDE7AM5Zv3uBsDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.ComponentAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.ComponentAddress.html",
+          "hash": "GMGJHbyaxBlV0hRqAoI3QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.ComponentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.ComponentType.html",
+          "hash": "LXWjMJmV+sRnM2FQFjlBBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.InputAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.InputAddress.html",
+          "hash": "DxMGAS1Tp+Pb5dpr+qk1bQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.InputInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.InputInfo.html",
+          "hash": "IRygwErAcc5nL7/0fX/l2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.NameID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.NameID.html",
+          "hash": "h6IkShjYG8UbFoVfpHLCfw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.OutputAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.OutputAddress.html",
+          "hash": "vvzKm1OjdGJsmGLC7RYEsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.OutputInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.OutputInfo.html",
+          "hash": "4CYoC3flLAbJagY15lKrwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.PegAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.PegAddress.html",
+          "hash": "XnLAaE/FfLy2dtmRBllVoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.PlayerID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.PlayerID.html",
+          "hash": "YEWFtibJ4VeEwNApP7tVCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.PuuidID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.PuuidID.html",
+          "hash": "yz3iVhXI82SGw7xcoI7d7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.Wire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.Wire.html",
+          "hash": "C72N/HJg27EJ1hMI3BK2bA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.WireAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.WireAddress.html",
+          "hash": "JPCyVMIqrec3nmPawJ4HNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Data.html",
+          "hash": "lQfMpvXWBXiPGeaHSRsycw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooking.CancellableEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooking.CancellableEventArgs.html",
+          "hash": "LTvRKgZ3SyvYj0cC3qMdYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooking.HookEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooking.HookEventArgs.html",
+          "hash": "hZCsSbk6u1yN/B9eXs7t1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooking.HookHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooking.HookHandler.html",
+          "hash": "64DdePsklufcmhXBfRlZeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooking.ICancellable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooking.ICancellable.html",
+          "hash": "4yoAWu824yts7l+WJPzNqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooking.html",
+          "hash": "02wmiXBUiFkSoz1fflfD/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooks.EventArgs.LoadingModEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooks.EventArgs.LoadingModEventArgs.html",
+          "hash": "1+NjTMvxaWzIiSerWw2vQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooks.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooks.EventArgs.html",
+          "hash": "SQ+JIr7yVWDOZIIUmvK31w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooks.ModHookHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooks.ModHookHandler.html",
+          "hash": "NdlIIe6xdXfRq4U0vgD7kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Hooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Hooks.html",
+          "hash": "JRjopX5+K3BHq9RD+c+DJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.IDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.IDispatcher.html",
+          "hash": "iPJtzt9LuIGX84zhIrj3vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.IModFiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.IModFiles.html",
+          "hash": "Mw+luXk0QDc/LwlamPxSTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.IWorldExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.IWorldExtensions.html",
+          "hash": "DvSXYKPi2A3OMhbfCKiDgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Interfaces.IComponentInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Interfaces.IComponentInfo.html",
+          "hash": "5B1/RfjHhHcOyBh3JaojVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Interfaces.html",
+          "hash": "f5c6RvOuXtslK06QXlaHGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.MetaMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.MetaMod.html",
+          "hash": "RAg0/V/P6yoc2xvNDbtj9w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.ModFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.ModFile.html",
+          "hash": "Rg26E5hAameY9mjnnBShew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.ModFilesExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.ModFilesExtensions.html",
+          "hash": "hxxpIBLUwHE5TKa4YDVKxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.ModLoadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.ModLoadException.html",
+          "hash": "EL4emvghIYRe8KApEoovMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.ModPaths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.ModPaths.html",
+          "hash": "GLotjPn703a4GgGu8IsbGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Modding.BaseMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Modding.BaseMod.html",
+          "hash": "Em1soe+PP/fdy4B6v11L1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Modding.ModManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Modding.ModManifest.html",
+          "hash": "rNUafP/i4WlprZqrpmRotw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Modding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Modding.html",
+          "hash": "h3PcK2344IcFYbvQ6R4HiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Proxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Proxy.html",
+          "hash": "Tv59fkCv1vbbC1bg1+qzWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.RPCAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.RPCAttribute.html",
+          "hash": "mMmz6UqYlgzcwJCXKo8RLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.RPCConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.RPCConfig.html",
+          "hash": "S8ON393lRlVmvBGNPMaAnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.RoundingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.RoundingExtensions.html",
+          "hash": "vFJd8qa1RGk7gRtv71Gg0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.ScriptLoadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.ScriptLoadException.html",
+          "hash": "67KbjEe5r/3eABnxi7keoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Service.html",
+          "hash": "2zMhl+etoHYqOGhrC0TzRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Services.IWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Services.IWorld.html",
+          "hash": "sySwEwA7Wb0aLycebOXZBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.Services.html",
+          "hash": "DYdO1HLf3BzY2e8lIKQjPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LogicAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LogicAPI.html",
+          "hash": "465GtGW4DEO8n8sGM17pWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "QBRy2ieOF32rLBxySWVcEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/component-reference-table.html",
+      "output": {
+        "resource": {
+          "relative_path": "articles/component-reference-table.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/component-reference.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/component-reference.html",
+          "hash": "Dxbw5aGlD3Gh5gL50ine7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "YZlwDy/pSOws4nMA4RtFng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/mod-structure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/mod-structure.html",
+          "hash": "BLPLo66OIbtv3sepRfTLAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/scripting/csharp-scripting.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/scripting/csharp-scripting.html",
+          "hash": "nrU0SPzW5t7/FIj8SKqFrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/scripting/ls-scripting.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/scripting/ls-scripting.html",
+          "hash": "XHlpUhIdGsh3bqHvWIEWOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_white.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_white.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "wE7m6771i+H+ugMoKR/E1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "UPv5eL+6pDxuHlgejQHjPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 8
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 75,
+          "skipped_file_count": 75
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
